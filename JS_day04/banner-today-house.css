@@ -1,0 +1,55 @@
+@charset "utf-8";
+body {
+    min-width: 1728px;
+}
+
+section.container {
+    position: relative;
+    width: 1728px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.banner {
+    width: 25920px;
+    transition: transform 0.3s;
+    /* transform: translate(-90vw); */
+}
+
+div.banner div {
+    width: 1728px;
+    height: 35vh;
+    float: left;
+    background-size: 100%;
+}
+
+div.move-arrow {
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+    width: 6%;
+    height: 3vh;
+}
+
+div.buttons {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 5px;
+}
+
+div.buttons button {
+    border: none;
+    padding: 0;
+    width: 6px;
+    height: 6px;
+    background-color: hsla(0,0%,100%,.7);
+    border-radius: 50%;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 12%);
+    margin: 0 -1px;
+    cursor: pointer;
+}
