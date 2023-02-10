@@ -1,0 +1,41 @@
+div {
+    text-align: center;
+}
+
+fieldset {
+    display: inline-block;
+    border-style: dashed;
+    border-bottom: none;
+	border-right: none;
+	border-left: none;
+    border-color: purple;
+    border-width: thick;
+    padding: 0 195px;
+}
+
+.input-area {
+    margin-top: 75px;
+}
+
+#button {
+    display: block;
+    margin:0 auto;
+    margin-top: 5px;
+	width: 75px;
+	height: 25px;
+	color:#fff;
+    background: purple;
+}
+
+#input {
+	text-align:center;
+	font-size:30px;
+	width: 430px;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-right-style: none;
+	border-left-style: none;
+	border-width: 3px;
+    outline: none;
+    border-color: black;
+}

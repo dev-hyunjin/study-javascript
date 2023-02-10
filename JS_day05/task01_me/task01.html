@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task01</title>
+    <link rel="stylesheet" href="task01.css">
+</head>
+<body>
+    <div>
+        <table border="1">
+        <caption>요금표</caption>
+            <tr id="th">
+                <th>구분</th>
+                <th>요금</th>
+            </tr>
+            <tr id="children">
+                <td>아동</td>
+                <td>무료</td>
+            </tr>
+            <tr id="student">
+                <td style="width: 415px;">청소년</td>
+                <td style="width: 374px;">2000원</td>
+            </tr>
+            <tr id="adult">
+                <td>성인</td>
+                <td>5000원</td>
+            </tr>
+        </table>
+    </div>
+    <div class="division">
+        <fieldset>
+            <legend>
+                <span>구분</span>
+            </legend>
+                <input type="text" id="textBox">
+                <button onclick="findMoney()">확인</button>
+        </fieldset>
+    </div>
+</body>
+<script src="task01.js"></script>
+</html>
